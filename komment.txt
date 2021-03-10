@@ -1,0 +1,2 @@
+ceil(a) = o'zidan katta songa yaxlitlaydi
+floor(a) = o'ziddan kichik butun songa yaxlitlaydi
