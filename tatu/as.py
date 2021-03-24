@@ -1,4 +1,3 @@
-a=input("a=")
-b=input("b=")
-print(a)
-print(b)
+a=int(input())
+b=int(input())
+print(2*(a=b))

@@ -21,7 +21,7 @@ int main()
     laptop obj2;
         obj2.model="MSI";
         obj2.protsesspr="AMD R5";
-        obj2.ozu=16;
+        obj2.ozu=8;
 
     cout<<obj1.model<<" "<<obj1.protsesspr<<" "<<obj1.ozu<<endl;
     cout<<obj2.model<<" "<<obj2.protsesspr<<" "<<obj2.ozu<<endl;
