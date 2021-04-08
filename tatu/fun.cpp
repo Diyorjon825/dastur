@@ -2,10 +2,11 @@
 using namespace std;
 
 int main(){
-    int a,b,c;
+    int a;
     cin>>a;
-    for(int i=0;i<a;i++){
-        cin>>c>>b;
-        cout<<c*b<<endl;
-    }
+    a++;
+    if(a%2==1)
+    cout<<a/2+2;   
+    else
+    cout<<a/2+1;
 }

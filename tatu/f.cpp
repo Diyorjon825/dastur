@@ -1,12 +1,10 @@
-#include<iostream>
-#include<iomanip>
-#include <cmath>
+#include <iostream>
+#include <string>
 using namespace std;
 int main(){
-    float x,y;
-    cin>>x>>y;
-    if(y>-1 && x>((y-2)/3) && x<(-((y-2)/3)))
-        cout<<"yes";
-    else
-        cout<<"no";
+    string s="Samandar olmani yemadi, chunki olma vitaminlarga boy emas";
+    s.replace(0,8,"Maqsud");
+    s.replace(7,6,"behini");
+    s.erase(16,2);
+    cout<<s;
 }
