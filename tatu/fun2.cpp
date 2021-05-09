@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
-string fun (int a, int b){
-    if(a%b==0)
-        return "bo'linadi";
-    else 
-        return "bo'linmaydi";
-}
 int main(){
-    int a, b;
-    cin >> a >> b;
-    cout << a << " soni " << b << " soniga qoldiqsiz "<< fun(a, b) << endl;
+    int a,s=0;
+    cin>>a;
+    int arr[a][a];
+    for(int i=0;i<a;i++){
+        for(int j=0;j<a;j++){
+            cin>>arr[i][j];            
+        }
+    }
+    for(int i=0;i<a;i++){
+        for(int j=0;j<a;j++){
+            if(arr[i][j]==1 && arr[j][i]==1) s++;        
+        }
+    }
+    cout<<s\2;
 }
