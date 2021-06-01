@@ -1,15 +1,12 @@
 void main() {
-  Diyor diyor = new Diyor(8, 25);
-  diyor.printMe();
+  var time = DateTime.now();
+  for (int i = 0; i < 46; i++) {
+    print('$i -> ${fib(i)}');
+  }
+  print(DateTime.now().difference(time).inMilliseconds);
 }
 
-class Diyor {
-  var a, b;
-  Diyor(var a, var b) {
-    this.a = a;
-    this.b = b;
-  }
-  void printMe() {
-    print('$a+$b=${a + b}');
-  }
+fib(int i) {
+  if (i < 2) return i;
+  return fib(i - 1) + fib(i - 2);
 }
